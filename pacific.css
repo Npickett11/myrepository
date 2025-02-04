@@ -1,8 +1,9 @@
 /* Global styles for the document */
 body {
-    background-color: #FFFFFF; /* White background */
+    background-color: #90C7E3; /* Light blue background */
     color: #666666; /* Text color: Light gray */
     font-family: Verdana, Arial, sans-serif; /* Sans-serif font family */
+    background: linear-gradient(to bottom, #FFFFFF, #90C7E3); /* Gradient from white to light blue */
 }
 
 /* Styles for the header */
@@ -16,6 +17,8 @@ header {
 /* Styles for the h1 element */
 h1 {
     line-height: 200%; /* Increased line height for spacing */
+    text-align: center; /* Center text */
+    padding-top: 0.5em; /* Padding on top */
 }
 
 /* Styles for the navigation */
@@ -23,6 +26,11 @@ nav {
     font-weight: bold; /* Bold text */
     background-color: #BBDEFB; /* Sky blue background */
     padding: 10px;
+    text-align: center; /* Center-align text */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
 }
 
 /* Styles for the h2 element */
@@ -50,10 +58,33 @@ footer {
     text-align: center; /* Center-align text */
     padding: 10px;
 }
+
 /* Wrapper for centered content */
 #wrapper {
-    width: 80%; /* Set width to 80% */
+    min-width: 960px; /* Minimum width */
+    max-width: 2048px; /* Maximum width */
     margin-left: auto; /* Center the page horizontally */
     margin-right: auto; /* Center the page horizontally */
     padding: 10px; /* Optional: Adds padding around the content */
+    background-color: #FFFFFF; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
 }
+
+/* Homehero, Yurthero, and Trailhero image containers */
+#homehero {
+    height: 300px; /* Set height for homehero */
+    background-image: url('images/coast.jpg'); /* Coast image */
+    background-size: 100% 100%; /* Ensure the image fills the div */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+#yurthero {
+    height: 300px; /* Set height for yurthero */
+    background-image: url('images/yurt.jpg'); /* Yurt image */
+    background-size: 100% 100%; /* Ensure the image fills the div */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+#trailhero {
+    height: 300px; /* Set height for trailhero */
+    background-image: url('images/
