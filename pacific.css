@@ -71,12 +71,21 @@ footer {
 }
 
 /* Homehero, Yurthero, and Trailhero image containers */
+/* Homehero image container */
 #homehero {
-    height: 300px; /* Set height for homehero */
+    height: 500px; /* Increased height to make the image larger */
     background-image: url('images/coast.jpg'); /* Coast image */
     background-size: 100% 100%; /* Ensure the image fills the div */
     background-repeat: no-repeat; /* Do not repeat the image */
 }
+
+/* Optional: If you want to control the size of the <img> element specifically */
+#homehero img {
+    width: 300%; /* Set width to 100% to fill the container */
+    height: 300%; /* Set height to 100% to fill the container */
+    object-fit: cover; /* Ensure the image covers the container area without distortion */
+}
+
 
 #yurthero {
     height: 300px; /* Set height for yurthero */
