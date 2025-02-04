@@ -12,6 +12,12 @@ header {
     color: #FFFFFF; /* White text */
     font-family: Georgia, serif; /* Serif font family */
     padding: 10px;
+    position: relative; /* Needed for positioning the image */
+    overflow: hidden; /* Ensure the image doesn't overflow out of the header */
+    background-image: url('images/small-image.jpg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); /* Small image + gradient fade */
+    background-size: auto 80%; /* Image is small (auto width, 80% height) */
+    background-position: right center; /* Position the image to the right */
+    background-repeat: no-repeat; /* Do not repeat the image */
 }
 
 /* Styles for the h1 element */
@@ -32,6 +38,7 @@ nav {
 nav a {
     text-decoration: none; /* Remove underline from links */
 }
+
 
 /* Styles for the h2 element */
 h2 {
