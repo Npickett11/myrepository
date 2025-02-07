@@ -1,77 +1,91 @@
-/* Global styles for the document */
-* { 
-    box-sizing: border-box; 
+/* Universal Selector */
+* {
+    box-sizing: border-box;
 }
 
+/* General Styles */
 body {
-    background-color: #EAEAEA; /* Change background to light gray */
-    color: #666666; /* Text color */
-    font-family: Verdana, Arial, sans-serif; /* Sans-serif font family */
+    background-color: #EAEAEA; /* Light gray background */
+    font-family: Verdana, Arial, sans-serif;
+    margin: 0;
 }
 
 /* Wrapper */
 #wrapper {
-    min-width: 960px;
-    max-width: 2048px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    background: linear-gradient(to bottom, #FFFFFF, #90C7E3); /* Apply gradient */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1024px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #90C7E3, #EAEAEA); /* Gradient from previous body */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }
 
 /* Header */
 header {
-    background-color: #002171;
-    color: #FFFFFF;
-    font-family: Georgia, serif;
-    padding: 10px;
-    height: 120px; /* Change height */
-    position: relative;
-    overflow: hidden;
+    background-color: #2C3E50;
+    color: white;
+    height: 120px;
+    text-align: center;
+    padding-top: 20px;
 }
 
-/* h1 */
-h1 {
-    font-size: 3em; /* Add font size */
-    letter-spacing: 0.25em; /* Add letter spacing */
-    line-height: 200%;
-    text-align: center;
-    padding-top: 0.5em;
+/* Header H1 */
+header h1 {
+    font-size: 3em;
+    letter-spacing: 0.25em;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+/* Header Links */
+header a:link, header a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #90C7E3;
 }
 
 /* Navigation */
 nav {
-    font-weight: bold;
-    background-color: inherit; /* Inherit wrapper background */
-    float: left; /* Float left */
-    width: 160px; /* Set width */
-    padding: 0; /* Remove padding */
-    font-size: 1.2em; /* Set font size */
-    position: fixed; /* Fix position */
+    float: left;
+    width: 160px;
+    padding: 0;
+    font-size: 1.2em;
+    position: fixed;
 }
 
-/* Navigation Links */
-nav a:link { color: #5C7FA3; } /* Unvisited */
-nav a:visited { color: #344873; } /* Visited */
-nav a:hover { color: #A52A2A; } /* Hover */
-
-/* Remove bullet points and adjust padding */
 nav ul {
     list-style-type: none;
     padding-left: 1em;
 }
 
+nav a:link {
+    color: #5C7FA3;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #A52A2A;
+}
+
+/* Hero Images */
+#homehero, #yurthero, #trailhero {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 170px;
+}
+
 /* Main Content */
 main {
     background-color: #FFFFFF;
-    margin-left: 170px; /* Adjust left margin */
-    overflow: auto; /* Prevent display issues */
-}
-
-/* Hero images */
-#homehero, #yurthero, #trailhero {
-    margin-left: 170px; /* Adjust left margin */
+    margin-left: 170px;
+    padding: 20px;
+    overflow: auto;
 }
 
 /* Sections */
@@ -87,16 +101,6 @@ footer {
     background-color: #FFFFFF;
     margin-left: 170px;
     text-align: center;
-    font-size: 0.70em;
-    font-style: italic;
-    padding: 10px;
-}
-
-/* Header Links */
-header a:link, header a:visited {
-    text-decoration: none;
-    color: #FFFFFF;
-}
-header a:hover {
-    color: #90C7E3;
+    padding: 15px;
+    font-size: 0.8em;
 }
