@@ -1,106 +1,36 @@
-/* Universal Selector */
-* {
-    box-sizing: border-box;
-}
-
-/* General Styles */
 body {
-    background-color: #EAEAEA; /* Light gray background */
-    font-family: Verdana, Arial, sans-serif;
-    margin: 0;
-}
+    background-color: #ffffff;
+    color: #666666;
+)
 
-/* Wrapper */
-#wrapper {
-    max-width: 1024px;
-    margin: 0 auto;
-    background: linear-gradient(to bottom, #90C7E3, #EAEAEA); /* Gradient from previous body */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-}
-
-/* Header */
 header {
-    background-color: #2C3E50;
-    color: white;
-    height: 120px;
-    text-align: center;
-    padding-top: 20px;
-}
-
-/* Header H1 */
-header h1 {
-    font-size: 3em;
-    letter-spacing: 0.25em;
-    font-family: Georgia, serif;
-    font-weight: bold;
-}
-
-/* Header Links */
-header a:link, header a:visited {
+    background-color: ##002171;
     color: #FFFFFF;
-    text-decoration: none;
-}
+)
 
-header a:hover {
-    color: #90C7E3;
-}
-
-/* Navigation */
 nav {
-    float: left;
-    width: 160px;
-    padding: 0;
-    font-size: 1.2em;
-    position: fixed;
+    background-color: #BBDEFB;
 }
 
-nav ul {
-    list-style-type: none;
-    padding-left: 1em;
+h2 {
+    color: #1976D2;
 }
 
-nav a:link {
-    color: #5C7FA3;
+h1 {
+    line-height: 200;
 }
 
-nav a:visited {
-    color: #344873;
+dt {
+    color: #002171;
 }
 
-nav a:hover {
-    color: #A52A2A;
+.resort {
+  color: #1976D2;
+  font-size: 1.2em;
 }
 
-/* Hero Images */
-#homehero, #yurthero, #trailhero {
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-    margin-left: 170px;
-}
-
-/* Main Content */
-main {
-    background-color: #FFFFFF;
-    margin-left: 170px;
-    padding: 20px;
-    overflow: auto;
-}
-
-/* Sections */
-section {
-    float: left;
-    width: 33%;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
-/* Footer */
 footer {
-    background-color: #FFFFFF;
-    margin-left: 170px;
-    text-align: center;
-    padding: 15px;
-    font-size: 0.8em;
+  font-size: 0.70em;
+  font-style: italic;
+  text-align: center;
 }
