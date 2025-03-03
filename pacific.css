@@ -36,6 +36,11 @@ h2 {
     color: #1976D2;
 }
 
+h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #000033;
+}
+
 dt {
     color: #002171;
 }
@@ -43,12 +48,19 @@ dt {
 .resort {
     color: #1976D2;
     font-size: 1.2em;
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
 }
 
 footer {
-    font-size: 0.70em;
+    font-family: Georgia, "Times New Roman", serif;  
+    font-size: 75%;
     font-style: italic;
     text-align: center;
+    
 }
 
 #wrapper {
