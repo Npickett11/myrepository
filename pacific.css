@@ -10,17 +10,26 @@ header {
     background-repeat: no-repeat;
     background-position: right;
     color: #FFFFFF;
+    line-height: 400%;
+    text-indent: 1em;
     padding: 20px; 
     text-align: center; 
 }
 
 h1 {
     margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 
 nav {
     background-color: #BBDEFB;
+    font-weight: bold;
+    
+}
+
+nav a {
+    text-decoration: none;
 }
 
 h2 {
