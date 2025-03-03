@@ -6,6 +6,9 @@ body {
 
 header {
     background-color: #002171;
+    background-image: url(sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
     color: #FFFFFF;
     padding: 20px; 
     text-align: center; 
